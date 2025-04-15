@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us – Mitali IT Services and Security</title>
+    <style>
+        /* Styles remain the same */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        .two-column {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .two-column div {
+            flex: 1;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: #fff;
+        }
+        .partners {
+            padding: 40px;
+            text-align: center;
+            background: #f9f9f9;
+            margin: 20px auto;
+        }
+        
+        .partners-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .partner-card {
+            width: 200px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .partner-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .partner-card h4 {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        
+        .why-choose-us {
+            padding: 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #f0f9ff, #cbebff);
+            margin: 20px auto;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            width: 80%;
+        }
+        
+        .why-choose-us h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .why-choose-us ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;
+            display: inline-block; /* Ensures the list is treated as a single centered block */
+            text-align: left; /* Align the text of the list to the left */
+        }
+        
+        .why-choose-us ul li {
+            margin: 15px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.2rem;
+            text-align: left; /* Ensures the text inside the list is aligned left */
+        }
+        
+        .why-choose-us ul li::before {
+            content: "✔";
+            color: #0056b3;
+            font-weight: bold;
+            font-size: 1.4rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }        
+
+
+        .team-card {
+            display: inline-block;
+            width: 250px;
+            margin: 10px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .team-card:hover {
+            transform: scale(1.05);
+        }
+
+        .team-card img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-card h4, .team-card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="security.html">Security</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+        <p>Mitali IT Services and Security offers innovative IT solutions and top-tier cybersecurity services to businesses worldwide.</p>
+        <img src="/images/s.png" alt="Mitali IT Services">
+        <h3>Our History</h3>
+        <img src="images/h.png" alt="history">
+        <p>Founded in 2010, we are now a global leader in IT and cybersecurity.</p>
+    </section>
+    <section class="partners">
+        <h3>Our Partners</h3>
+        <div class="partners-container">
+            <div class="partner-card">
+                <img src="images/i1.png" alt="TechPark Solutions">
+                <h4>TechPark Solutions</h4>
+            </div>
+            <div class="partner-card">
+                <img src="images/i2.png" alt="SafeNet Security">
+                <h4>SafeNet Security</h4>
+            </div>
+        </div>
+    </section>
+    
+
+    <section>
+        <div class="two-column">
+            <div>
+                <h3>Our Mission</h3>
+                <img src="images/m.png" alt="our mission">
+                <p>To provide cutting-edge IT solutions and cybersecurity services that empower businesses worldwide.</p>
+            </div>
+            <div>
+                <h3>Our Vision</h3>
+                <img src="images/v.png" alt="Our Vision">
+                <p>To become the global benchmark in IT innovation and security excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li>World-class IT solutions tailored to your needs</li>
+            <li>Top-notch cybersecurity expertise</li>
+            <li>Dedicated and experienced professionals</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Meet the Team</h3>
+        <div>
+            <div class="team-card">
+                <img src="/images/1.png" alt="Team Member">
+                <h4>Kylie Jenner</h4>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-card">
+                <img src="/images/2.png" alt="Team Member">
+                <h4>Jane Smith</h4>
+                <p>Head of Cybersecurity</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
